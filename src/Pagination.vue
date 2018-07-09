@@ -1,5 +1,6 @@
 <template>
   <div v-show="carousel.pageCount > 1" class="VueCarousel-pagination">
+    {{pagniationCount}}
     <ul class="VueCarousel-dot-container" role="tablist">
       <li
         class="VueCarousel-dot"
@@ -39,7 +40,7 @@ export default {
     pagniationCount() {
       return this.carousel.scrollPerPage
         ? this.carousel.pageCount
-        : this.carousel.slideCount - 2;
+        : this.carousel.slideCount - this.carousel.breakpointSlidesPerPage + 1;
     }
   },
   methods: {
