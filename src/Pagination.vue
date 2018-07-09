@@ -1,6 +1,5 @@
 <template>
   <div v-show="carousel.pageCount > 1" class="VueCarousel-pagination">
-    {{pagniationCount}}
     <ul class="VueCarousel-dot-container" role="tablist">
       <li
         class="VueCarousel-dot"

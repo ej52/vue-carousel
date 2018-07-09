@@ -37,7 +37,6 @@ exports[`Carousel should begin autoplaying when option specified 1`] = `
     .VueCarousel-slide.VueCarousel-slide-active.VueCarousel-slide-center(tabindex=\'-1\')
 |  
 .VueCarousel-pagination
-  | 2
   ul.VueCarousel-dot-container(role=\'tablist\')
     li.VueCarousel-dot(aria-hidden=\'false\', role=\'presentation\', aria-selected=\'false\', style=\'margin-top: 20px; padding: 10px;\')
       button.VueCarousel-dot-button(type=\'button\', role=\'button\', tabindex=\'0\', style=\'width: 10px; height: 10px; background: rgb(239, 239, 239);\')
@@ -54,7 +53,6 @@ exports[`Carousel should decrease current page number by 1 when advance page bac
     .VueCarousel-slide.VueCarousel-slide-active.VueCarousel-slide-center(tabindex=\'-1\')
 |  
 .VueCarousel-pagination
-  | 2
   ul.VueCarousel-dot-container(role=\'tablist\')
     li.VueCarousel-dot(aria-hidden=\'false\', role=\'presentation\', aria-selected=\'false\', style=\'margin-top: 20px; padding: 10px;\')
       button.VueCarousel-dot-button(type=\'button\', role=\'button\', tabindex=\'0\', style=\'width: 10px; height: 10px; background: rgb(239, 239, 239);\')
@@ -73,7 +71,6 @@ exports[`Carousel should decrease current slide number by 1 when advance slide b
     .VueCarousel-slide(tabindex=\'-1\')
 |  
 .VueCarousel-pagination
-  | 4
   ul.VueCarousel-dot-container(role=\'tablist\')
     li.VueCarousel-dot(aria-hidden=\'false\', role=\'presentation\', aria-selected=\'false\', style=\'margin-top: 20px; padding: 10px;\')
       button.VueCarousel-dot-button(type=\'button\', role=\'button\', tabindex=\'0\', style=\'width: 10px; height: 10px; background: rgb(239, 239, 239);\')
@@ -95,7 +92,6 @@ exports[`Carousel should fall back to default slides per page when no responsive
     .VueCarousel-slide.VueCarousel-slide-active(tabindex=\'-1\')
 |  
 .VueCarousel-pagination
-  | 2
   ul.VueCarousel-dot-container(role=\'tablist\')
     li.VueCarousel-dot(aria-hidden=\'false\', role=\'presentation\', aria-selected=\'false\', style=\'margin-top: 20px; padding: 10px;\')
       button.VueCarousel-dot-button(type=\'button\', role=\'button\', tabindex=\'0\', style=\'width: 10px; height: 10px; background: rgb(239, 239, 239);\')
@@ -112,7 +108,6 @@ exports[`Carousel should increase current page number by 1 when advance page is 
     .VueCarousel-slide.VueCarousel-slide-active.VueCarousel-slide-center(tabindex=\'-1\')
 |  
 .VueCarousel-pagination
-  | 2
   ul.VueCarousel-dot-container(role=\'tablist\')
     li.VueCarousel-dot(aria-hidden=\'false\', role=\'presentation\', aria-selected=\'false\', style=\'margin-top: 20px; padding: 10px;\')
       button.VueCarousel-dot-button(type=\'button\', role=\'button\', tabindex=\'0\', style=\'width: 10px; height: 10px; background: rgb(239, 239, 239);\')
@@ -129,7 +124,6 @@ exports[`Carousel should increase current page number by 1 when advance page is 
     .VueCarousel-slide.VueCarousel-slide-active.VueCarousel-slide-center(tabindex=\'-1\')
 |  
 .VueCarousel-pagination
-  | 2
   ul.VueCarousel-dot-container(role=\'tablist\')
     li.VueCarousel-dot(aria-hidden=\'false\', role=\'presentation\', aria-selected=\'false\', style=\'margin-top: 20px; padding: 10px;\')
       button.VueCarousel-dot-button(type=\'button\', role=\'button\', tabindex=\'0\', style=\'width: 10px; height: 10px; background: rgb(239, 239, 239);\')
@@ -146,7 +140,6 @@ exports[`Carousel should loop back to the start when loop is true and advance pa
     .VueCarousel-slide(tabindex=\'-1\')
 |  
 .VueCarousel-pagination
-  | 2
   ul.VueCarousel-dot-container(role=\'tablist\')
     li.VueCarousel-dot.VueCarousel-dot--active(aria-hidden=\'false\', role=\'presentation\', aria-selected=\'true\', style=\'margin-top: 20px; padding: 10px;\')
       button.VueCarousel-dot-button(type=\'button\', role=\'button\', tabindex=\'0\', style=\'width: 10px; height: 10px; background: rgb(0, 0, 0);\')
@@ -163,7 +156,6 @@ exports[`Carousel should loop to the end when loop is true and advance page "bac
     .VueCarousel-slide.VueCarousel-slide-active.VueCarousel-slide-center(tabindex=\'-1\')
 |  
 .VueCarousel-pagination
-  | 2
   ul.VueCarousel-dot-container(role=\'tablist\')
     li.VueCarousel-dot(aria-hidden=\'false\', role=\'presentation\', aria-selected=\'false\', style=\'margin-top: 20px; padding: 10px;\')
       button.VueCarousel-dot-button(type=\'button\', role=\'button\', tabindex=\'0\', style=\'width: 10px; height: 10px; background: rgb(239, 239, 239);\')
@@ -188,7 +180,6 @@ exports[`Carousel should not reset autoplay when switching slide with autoplayHo
     .VueCarousel-slide.VueCarousel-slide-active.VueCarousel-slide-center(tabindex=\'-1\')
 |  
 .VueCarousel-pagination
-  | 2
   ul.VueCarousel-dot-container(role=\'tablist\')
     li.VueCarousel-dot(aria-hidden=\'false\', role=\'presentation\', aria-selected=\'false\', style=\'margin-top: 20px; padding: 10px;\')
       button.VueCarousel-dot-button(type=\'button\', role=\'button\', tabindex=\'0\', style=\'width: 10px; height: 10px; background: rgb(239, 239, 239);\')
@@ -214,7 +205,6 @@ exports[`Carousel should register 3 slides when 3 slides are added to the slots 
     .VueCarousel-slide.VueCarousel-slide-active(tabindex=\'-1\')
 |  
 .VueCarousel-pagination
-  | 2
   ul.VueCarousel-dot-container(role=\'tablist\')
     li.VueCarousel-dot(aria-hidden=\'false\', role=\'presentation\', aria-selected=\'false\', style=\'margin-top: 20px; padding: 10px;\')
       button.VueCarousel-dot-button(type=\'button\', role=\'button\', tabindex=\'0\', style=\'width: 10px; height: 10px; background: rgb(239, 239, 239);\')
@@ -231,7 +221,6 @@ exports[`Carousel should reset autoplay when switching slide without autoplayHov
     .VueCarousel-slide.VueCarousel-slide-active.VueCarousel-slide-center(tabindex=\'-1\')
 |  
 .VueCarousel-pagination
-  | 2
   ul.VueCarousel-dot-container(role=\'tablist\')
     li.VueCarousel-dot(aria-hidden=\'false\', role=\'presentation\', aria-selected=\'false\', style=\'margin-top: 20px; padding: 10px;\')
       button.VueCarousel-dot-button(type=\'button\', role=\'button\', tabindex=\'0\', style=\'width: 10px; height: 10px; background: rgb(239, 239, 239);\')
